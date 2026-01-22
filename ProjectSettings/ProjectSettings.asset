@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 26
-  productGUID: caa47872880672846ba7ebabd1cff4c8
+  productGUID: aaafd5d8dd67dae4fb87dea47cf9fabd
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: Plz-Dont-Delete-Dis-I-Dont-Know-How-To-Push
+  productName: Please-Dont-Delete-This-I-Dont-Know-How-To-Push
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -161,7 +161,8 @@ PlayerSettings:
   resetResolutionOnWindowResize: 0
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
-  applicationIdentifier: {}
+  applicationIdentifier:
+    Standalone: com.DefaultCompany.Please-Dont-Delete-This-I-Dont-Know-How-To-Push
   buildNumber:
     Standalone: 0
     VisionOS: 0
@@ -681,16 +682,16 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: Plz-Dont-Delete-Dis-I-Dont-Know-How-To-Push
-  metroPackageVersion: 
+  metroPackageName: Please-Dont-Delete-This-I-Dont-Know-How-To-Push
+  metroPackageVersion: 1.0.0.0
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: Plz-Dont-Delete-Dis-I-Dont-Know-How-To-Push
+  metroApplicationDescription: Please-Dont-Delete-This-I-Dont-Know-How-To-Push
   wsaImages: {}
-  metroTileShortName: 
+  metroTileShortName: Please-Dont-Delete-This-I-Dont-Know-How-
   metroTileShowName: 0
   metroMediumTileShowName: 0
   metroLargeTileShowName: 0
@@ -758,10 +759,10 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
-  cloudProjectId: 654a7b90-6493-4183-89d0-cc69a44c2d6e
+  cloudProjectId: 2faa64a1-d6e6-401e-bed5-0ec17287e707
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: Plz-Dont-Delete-Dis-I-Dont-Know-How-To-Push
+  projectName: Please-Dont-Delete-This-I-Dont-Know-How-To-Push
   organizationId: codeninjasetobicokenorth
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
