@@ -517,6 +517,7 @@ GameObject:
   - component: {fileID: 201320955}
   - component: {fileID: 201320957}
   - component: {fileID: 201320956}
+  - component: {fileID: 201320958}
   m_Layer: 0
   m_Name: shuriken (4)
   m_TagString: Collectable
@@ -636,6 +637,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &201320958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 201320954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63697514d8831be4983d0a5dfc54c488, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectThrown: {fileID: 201320954}
+  offset: {x: 0, y: 0, z: 0}
+  throwableCounter: 0
 --- !u!1 &339445926
 GameObject:
   m_ObjectHideFlags: 3
@@ -1716,6 +1732,7 @@ GameObject:
   - component: {fileID: 698758098}
   - component: {fileID: 698758100}
   - component: {fileID: 698758099}
+  - component: {fileID: 698758101}
   m_Layer: 0
   m_Name: shuriken (1)
   m_TagString: Collectable
@@ -1835,6 +1852,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &698758101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 698758097}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63697514d8831be4983d0a5dfc54c488, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectThrown: {fileID: 698758097}
+  offset: {x: 0, y: 0, z: 0}
+  throwableCounter: 0
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -2523,6 +2555,7 @@ GameObject:
   - component: {fileID: 879251885}
   - component: {fileID: 879251887}
   - component: {fileID: 879251886}
+  - component: {fileID: 879251888}
   m_Layer: 0
   m_Name: shuriken (2)
   m_TagString: Collectable
@@ -2642,6 +2675,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &879251888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 879251884}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63697514d8831be4983d0a5dfc54c488, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectThrown: {fileID: 879251884}
+  offset: {x: 0, y: 0, z: 0}
+  throwableCounter: 0
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -3313,6 +3361,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectThrown: {fileID: 1566748454}
   offset: {x: 0, y: 0, z: 0}
+  throwableCounter: 0
 --- !u!1 &1503348465
 GameObject:
   m_ObjectHideFlags: 0
@@ -3537,6 +3586,7 @@ GameObject:
   - component: {fileID: 1566748455}
   - component: {fileID: 1566748457}
   - component: {fileID: 1566748456}
+  - component: {fileID: 1566748458}
   m_Layer: 0
   m_Name: shuriken
   m_TagString: Collectable
@@ -3656,6 +3706,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1566748458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1566748454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63697514d8831be4983d0a5dfc54c488, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectThrown: {fileID: 1566748454}
+  offset: {x: 0, y: 0, z: 0}
+  throwableCounter: 0
 --- !u!1 &1618464549
 GameObject:
   m_ObjectHideFlags: 0
@@ -4129,6 +4194,7 @@ GameObject:
   - component: {fileID: 1833357073}
   - component: {fileID: 1833357075}
   - component: {fileID: 1833357074}
+  - component: {fileID: 1833357076}
   m_Layer: 0
   m_Name: shuriken (3)
   m_TagString: Collectable
@@ -4248,6 +4314,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1833357076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1833357072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63697514d8831be4983d0a5dfc54c488, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectThrown: {fileID: 1833357072}
+  offset: {x: 0, y: 0, z: 0}
+  throwableCounter: 0
 --- !u!1 &1836563219
 GameObject:
   m_ObjectHideFlags: 0
@@ -4517,6 +4598,7 @@ GameObject:
   - component: {fileID: 1965887432}
   - component: {fileID: 1965887434}
   - component: {fileID: 1965887433}
+  - component: {fileID: 1965887435}
   m_Layer: 0
   m_Name: shuriken (5)
   m_TagString: Collectable
@@ -4636,6 +4718,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1965887435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1965887431}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63697514d8831be4983d0a5dfc54c488, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectThrown: {fileID: 1965887431}
+  offset: {x: 0, y: 0, z: 0}
+  throwableCounter: 0
 --- !u!1 &2009889000 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5458851736772745684, guid: 32ed36183c16eba49a535121e3e8472f, type: 3}
