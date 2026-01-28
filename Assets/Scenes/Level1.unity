@@ -220,7 +220,7 @@ Transform:
   m_GameObject: {fileID: 67287675}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -27.79, y: 7.61, z: -9.971177}
+  m_LocalPosition: {x: -28.45, y: 7.61, z: -9.971177}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -391,7 +391,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5458851736772745675, guid: 32ed36183c16eba49a535121e3e8472f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5458851736772745675, guid: 32ed36183c16eba49a535121e3e8472f, type: 3}
       propertyPath: m_LocalRotation.w
@@ -455,7 +455,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5458851736772745675, guid: 32ed36183c16eba49a535121e3e8472f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5458851736772745675, guid: 32ed36183c16eba49a535121e3e8472f, type: 3}
       propertyPath: m_LocalRotation.w
@@ -517,7 +517,6 @@ GameObject:
   - component: {fileID: 201320955}
   - component: {fileID: 201320957}
   - component: {fileID: 201320956}
-  - component: {fileID: 201320958}
   m_Layer: 0
   m_Name: shuriken (4)
   m_TagString: Collectable
@@ -534,7 +533,7 @@ Transform:
   m_GameObject: {fileID: 201320954}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 15.031668, y: 6.180315, z: 0.05686142}
+  m_LocalPosition: {x: 15.031668, y: 6.180315, z: 3}
   m_LocalScale: {x: 3.0247, y: 2.66, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -637,21 +636,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &201320958
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 201320954}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 63697514d8831be4983d0a5dfc54c488, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objectThrown: {fileID: 201320954}
-  offset: {x: 0, y: 0, z: 0}
-  throwableCounter: 0
 --- !u!1 &339445926
 GameObject:
   m_ObjectHideFlags: 3
@@ -1341,11 +1325,10 @@ Transform:
   m_GameObject: {fileID: 506419800}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.667953, y: -0.7977973, z: 4}
+  m_LocalPosition: {x: 1.667953, y: -0.7977973, z: 3}
   m_LocalScale: {x: 65, y: 25, z: 0}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1506806030}
+  m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!60 &506419805
@@ -1675,7 +1658,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5458851736772745675, guid: 32ed36183c16eba49a535121e3e8472f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5458851736772745675, guid: 32ed36183c16eba49a535121e3e8472f, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1732,7 +1715,6 @@ GameObject:
   - component: {fileID: 698758098}
   - component: {fileID: 698758100}
   - component: {fileID: 698758099}
-  - component: {fileID: 698758101}
   m_Layer: 0
   m_Name: shuriken (1)
   m_TagString: Collectable
@@ -1749,7 +1731,7 @@ Transform:
   m_GameObject: {fileID: 698758097}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -33.16833, y: -5.8396854, z: 0.05686142}
+  m_LocalPosition: {x: -33.16833, y: -5.8396854, z: 3}
   m_LocalScale: {x: 3.0247, y: 2.66, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1852,21 +1834,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &698758101
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 698758097}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 63697514d8831be4983d0a5dfc54c488, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objectThrown: {fileID: 698758097}
-  offset: {x: 0, y: 0, z: 0}
-  throwableCounter: 0
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -2485,9 +2452,29 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 919825731887471115, guid: 808b89f9746b7b7498a3a88b37ef5221, type: 3}
+      propertyPath: m_Size.x
+      value: 0.72
+      objectReference: {fileID: 0}
+    - target: {fileID: 919825731887471115, guid: 808b89f9746b7b7498a3a88b37ef5221, type: 3}
+      propertyPath: m_Size.y
+      value: 0.64
+      objectReference: {fileID: 0}
+    - target: {fileID: 919825731887471115, guid: 808b89f9746b7b7498a3a88b37ef5221, type: 3}
+      propertyPath: m_Offset.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919825731887471115, guid: 808b89f9746b7b7498a3a88b37ef5221, type: 3}
+      propertyPath: m_Offset.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919825731887471115, guid: 808b89f9746b7b7498a3a88b37ef5221, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919825731887471158, guid: 808b89f9746b7b7498a3a88b37ef5221, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -27.79
+      value: -28.45
       objectReference: {fileID: 0}
     - target: {fileID: 919825731887471158, guid: 808b89f9746b7b7498a3a88b37ef5221, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2499,23 +2486,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919825731887471158, guid: 808b89f9746b7b7498a3a88b37ef5221, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.999962
       objectReference: {fileID: 0}
     - target: {fileID: 919825731887471158, guid: 808b89f9746b7b7498a3a88b37ef5221, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0.008726558
       objectReference: {fileID: 0}
     - target: {fileID: 919825731887471158, guid: 808b89f9746b7b7498a3a88b37ef5221, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919825731887471158, guid: 808b89f9746b7b7498a3a88b37ef5221, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919825731887471158, guid: 808b89f9746b7b7498a3a88b37ef5221, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 919825731887471158, guid: 808b89f9746b7b7498a3a88b37ef5221, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -2532,6 +2519,10 @@ PrefabInstance:
     - target: {fileID: 919825731887471159, guid: 808b89f9746b7b7498a3a88b37ef5221, type: 3}
       propertyPath: m_TagString
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 919825732493108637, guid: 808b89f9746b7b7498a3a88b37ef5221, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2555,7 +2546,6 @@ GameObject:
   - component: {fileID: 879251885}
   - component: {fileID: 879251887}
   - component: {fileID: 879251886}
-  - component: {fileID: 879251888}
   m_Layer: 0
   m_Name: shuriken (2)
   m_TagString: Collectable
@@ -2572,7 +2562,7 @@ Transform:
   m_GameObject: {fileID: 879251884}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -26.718332, y: 8.260315, z: 0.05686142}
+  m_LocalPosition: {x: -26.718332, y: 8.260315, z: 3}
   m_LocalScale: {x: 3.0247, y: 2.66, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2675,21 +2665,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &879251888
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 879251884}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 63697514d8831be4983d0a5dfc54c488, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objectThrown: {fileID: 879251884}
-  offset: {x: 0, y: 0, z: 0}
-  throwableCounter: 0
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -3360,7 +3335,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectThrown: {fileID: 1566748454}
-  offset: {x: 0, y: 0, z: 0}
+  offset: {x: 1, y: 0, z: 0}
   throwableCounter: 0
 --- !u!1 &1503348465
 GameObject:
@@ -3517,11 +3492,11 @@ Transform:
   m_GameObject: {fileID: 1506806029}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.000312, y: -0.00032, z: 0}
-  m_LocalScale: {x: 0.031026945, y: 0.0822047, z: 0}
+  m_LocalPosition: {x: 1.688233, y: -0.80579734, z: 3}
+  m_LocalScale: {x: 2.0167513, y: 2.0551176, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 506419804}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1506806031
 SpriteRenderer:
@@ -3586,7 +3561,6 @@ GameObject:
   - component: {fileID: 1566748455}
   - component: {fileID: 1566748457}
   - component: {fileID: 1566748456}
-  - component: {fileID: 1566748458}
   m_Layer: 0
   m_Name: shuriken
   m_TagString: Collectable
@@ -3603,7 +3577,7 @@ Transform:
   m_GameObject: {fileID: 1566748454}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -12.808332, y: 4.280315, z: 0.05686142}
+  m_LocalPosition: {x: -12.808332, y: 4.280315, z: 3}
   m_LocalScale: {x: 3.0247, y: 2.66, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3706,21 +3680,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1566748458
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1566748454}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 63697514d8831be4983d0a5dfc54c488, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objectThrown: {fileID: 1566748454}
-  offset: {x: 0, y: 0, z: 0}
-  throwableCounter: 0
 --- !u!1 &1618464549
 GameObject:
   m_ObjectHideFlags: 0
@@ -3912,7 +3871,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5458851736772745675, guid: 32ed36183c16eba49a535121e3e8472f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5458851736772745675, guid: 32ed36183c16eba49a535121e3e8472f, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3976,7 +3935,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5458851736772745675, guid: 32ed36183c16eba49a535121e3e8472f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5458851736772745675, guid: 32ed36183c16eba49a535121e3e8472f, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4194,7 +4153,6 @@ GameObject:
   - component: {fileID: 1833357073}
   - component: {fileID: 1833357075}
   - component: {fileID: 1833357074}
-  - component: {fileID: 1833357076}
   m_Layer: 0
   m_Name: shuriken (3)
   m_TagString: Collectable
@@ -4211,7 +4169,7 @@ Transform:
   m_GameObject: {fileID: 1833357072}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -13.748331, y: 10.600315, z: 0.05686142}
+  m_LocalPosition: {x: -13.748331, y: 10.600315, z: 3}
   m_LocalScale: {x: 3.0247, y: 2.66, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4314,21 +4272,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1833357076
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1833357072}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 63697514d8831be4983d0a5dfc54c488, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objectThrown: {fileID: 1833357072}
-  offset: {x: 0, y: 0, z: 0}
-  throwableCounter: 0
 --- !u!1 &1836563219
 GameObject:
   m_ObjectHideFlags: 0
@@ -4598,7 +4541,6 @@ GameObject:
   - component: {fileID: 1965887432}
   - component: {fileID: 1965887434}
   - component: {fileID: 1965887433}
-  - component: {fileID: 1965887435}
   m_Layer: 0
   m_Name: shuriken (5)
   m_TagString: Collectable
@@ -4615,7 +4557,7 @@ Transform:
   m_GameObject: {fileID: 1965887431}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.111668, y: -6.029685, z: 0.05686142}
+  m_LocalPosition: {x: 6.111668, y: -6.029685, z: 3}
   m_LocalScale: {x: 3.0247, y: 2.66, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4718,21 +4660,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1965887435
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1965887431}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 63697514d8831be4983d0a5dfc54c488, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objectThrown: {fileID: 1965887431}
-  offset: {x: 0, y: 0, z: 0}
-  throwableCounter: 0
 --- !u!1 &2009889000 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5458851736772745684, guid: 32ed36183c16eba49a535121e3e8472f, type: 3}
@@ -4815,7 +4742,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5458851736772745675, guid: 32ed36183c16eba49a535121e3e8472f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5458851736772745675, guid: 32ed36183c16eba49a535121e3e8472f, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4948,7 +4875,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5458851736772745675, guid: 32ed36183c16eba49a535121e3e8472f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5458851736772745675, guid: 32ed36183c16eba49a535121e3e8472f, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5001,6 +4928,7 @@ SceneRoots:
   - {fileID: 963194228}
   - {fileID: 873094264}
   - {fileID: 705507995}
+  - {fileID: 1506806030}
   - {fileID: 506419804}
   - {fileID: 1476323813}
   - {fileID: 67287677}
