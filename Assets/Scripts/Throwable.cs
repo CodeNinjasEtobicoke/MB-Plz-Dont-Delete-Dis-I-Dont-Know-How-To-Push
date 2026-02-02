@@ -13,7 +13,7 @@ public class Throwable : MonoBehaviour
     void Update()
     {
     
-        if (Input.GetButtonDown("Fire1"))
+        if (Input.GetButtonDown("Pick up"))
         {
             if (throwableCounter > 0)
             {

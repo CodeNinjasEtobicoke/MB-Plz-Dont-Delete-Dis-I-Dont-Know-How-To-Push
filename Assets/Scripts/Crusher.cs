@@ -15,13 +15,11 @@ public class Crusher : MonoBehaviour
         }
         float newXposition = transform.position.x + speed * Time.fixedDeltaTime;
         float newYposition = transform.position.y;
-        Vector2 newPosition = new Vector2 (newXposition, newYposition);
+        Vector2 newPosition = new Vector2(newXposition, newYposition);
         transform.position = newPosition;
     }
 
     // Update is called once per frame
-    void Update()
-    {
-        
-    }
+   
 }
+
