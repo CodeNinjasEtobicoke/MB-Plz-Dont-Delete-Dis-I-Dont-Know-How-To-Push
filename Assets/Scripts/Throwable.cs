@@ -2,9 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 
 public class Throwable : MonoBehaviour
 {
+    public TextMeshProUGUI collectableCounter;
     public GameObject objectThrown;
     public Vector3 offset;
     public int throwableCounter;
@@ -18,7 +21,7 @@ public class Throwable : MonoBehaviour
             if (throwableCounter > 0)
             {
                 throwableCounter -= 1;
-
+                collectableCounter.text = throwableCounter.ToString();
                 offset = transform.localScale.x * new Vector3(1, 0, 0);
 
                 Vector3 throwablePosition = transform.position + offset;
@@ -36,6 +39,7 @@ public class Throwable : MonoBehaviour
         {
             throwableCounter += 1;
             Destroy(collision.gameObject);
+            collectableCounter.text = throwableCounter.ToString();
 
         }
 

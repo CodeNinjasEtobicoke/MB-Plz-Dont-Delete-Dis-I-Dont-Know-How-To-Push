@@ -6,6 +6,11 @@ TagManager:
   tags:
   - Enemy
   - Collectable
+  - ThrowingObject
+  - Bullet
+  - Ground
+  - TheExitOHTheExit
+  - TheExitByConanGray
   layers:
   - Default
   - TransparentFX
