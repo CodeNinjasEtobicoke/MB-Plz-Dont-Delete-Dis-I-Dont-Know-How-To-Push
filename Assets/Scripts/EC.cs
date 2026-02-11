@@ -4,7 +4,6 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class EC : MonoBehaviour
 {
-    // Start is called before the first frame update
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
@@ -12,12 +11,28 @@ public class EC : MonoBehaviour
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
 
-        if (collision.gameObject.CompareTag("ThrowingObject") || collision.gameObject.CompareTag("Collectable"))
+        if (collision.gameObject.CompareTag("ThrowingObject"))
         {
-            Destroy(gameObject);
+            Debug.Log("shuriken hit enemy");
+            Invoke("Reload", 3);
+        }
+    }
+
+
+    private void OnCollisionStay2D(Collision2D collision)
+    {
+        Debug.Log(collision.gameObject.tag);
+
+        if (collision.gameObject.CompareTag("ThrowingObject"))
+        {
+            Debug.Log("shuriken hit enemy");
+            //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            SceneManager.LoadScene(1);
         }
     }
 }
+
+
 
     
 

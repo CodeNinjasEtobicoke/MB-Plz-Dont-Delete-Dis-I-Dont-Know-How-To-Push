@@ -45,5 +45,9 @@ public class Throwable : MonoBehaviour
 
     }
 
-
+    private void DestroyThrowable()
+    {
+        Destroy(gameObject);
+        Invoke("Reload", 3);
+    }
 }
