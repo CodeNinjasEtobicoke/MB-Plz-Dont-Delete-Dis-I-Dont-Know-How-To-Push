@@ -8,7 +8,8 @@ public class wooshProvider : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        enemyCount = GameObject.FindGameObjectsWithTag("Enemy").Length;
+        enemyCount = 0;
+            //GameObject.FindGameObjectsWithTag("Enemy").Length;
     }
 
     // Update is called once per frame
@@ -18,6 +19,6 @@ public class wooshProvider : MonoBehaviour
         {
             SceneManager.LoadScene(1);
         }
-        enemyCount = -1;
+            enemyCount = -1;
     }
 }
